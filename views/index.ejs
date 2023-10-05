@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<hrad>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+    intial-scale=1.0">
+    <title>เว็บติดตามข้อมูลหุ่นยนต์</title>
+    <link rel="stylesheet" href="/css/style2.css">
+    </head>
+
+    <header>
+        <h2 class="logo">เว็บติดตามข้อมูลหุ่นยนต์</h2>
+        <nav class="navigation">
+            <a href="status.html">หน้าหลัก</a>
+        </nav>
+    </header>
+
+    <body>
+        <img src="1.jpg" alt="" class="type1">
+        <div class="inputbox">
+            <label for="start">สถานะของช่องใส่เอกสารที่ 1</label>
+            <input type="status" class="form-control" id="floatingInputDisabled" placeholder="สถานะ" disabled>
+        </div>
+        <div class="inputbox">
+            <label for="start">สถานะของช่องใส่เอกสารที่ 2</label>
+            <input type="status" class="form-control" id="floatingInputDisabled" placeholder="สถานะ" disabled>
+        </div>
+        <div class="inputbox">
+            <label for="floatingInputDisabled">สถานะของจุดช่องใส่เอกสารที่ 3</label>
+            <input type="status" class="form-control" id="floatingInputDisabled" placeholder="สถานะ" disabled>
+        </div>
+        </select>
+        <button type="submit" onclick="location.href='#'" class="btnstart">เริ่มการทำงาน</button>
+        <button type="clear" onclick="location.href='main.html'" class="btndel">ล้างค่า</button>
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+            var socket = io();
+            
+        </script>
+    </body>
+    </body>
